@@ -1,0 +1,144 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="Pelanggan" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-7" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-5" target="4WwGZsH3jUNIRJm6gG6O-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="Kasir" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="Mengajukan Pesanan" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-1" target="aM9ryv3xv72pqoxQDRHE-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="195" y="120" />
+            </Array>
+            <mxPoint x="280" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="Menyampaikan Konfirmasi Pembayaran&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-5" target="aM9ryv3xv72pqoxQDRHE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="205" y="290" />
+            </Array>
+            <mxPoint x="280" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-9" value="Menampilkan Total Pembayaran" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-5" target="aM9ryv3xv72pqoxQDRHE-1">
+          <mxGeometry x="0.0061" relative="1" as="geometry">
+            <mxPoint x="275" y="189.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="200" y="189.5" />
+            </Array>
+            <mxPoint x="110" y="189.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-4" value="Kasir" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-5" value="Pelanggan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-9" value="Konfirmasi Pesanan" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;elbow=vertical;rounded=0;" edge="1" parent="1" source="4WwGZsH3jUNIRJm6gG6O-12" target="aM9ryv3xv72pqoxQDRHE-5">
+          <mxGeometry x="0.0178" relative="1" as="geometry">
+            <mxPoint x="507" y="220" as="targetPoint" />
+            <mxPoint x="480" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="470" y="170" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-10" value="Melakukan Pembayaran" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="195" y="220" />
+            </Array>
+            <mxPoint x="300" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-11" value="Menerima Pesanan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="118" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-12" value="&quot;Sistem Akuntansi&quot;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="40" width="110" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-13" value="&quot;Sistem Akuntansi&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="480" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-14" value="Melakukan Pembayaran" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="4WwGZsH3jUNIRJm6gG6O-12">
+          <mxGeometry x="-0.0022" relative="1" as="geometry">
+            <mxPoint x="300" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="405" y="240" />
+            </Array>
+            <mxPoint x="510" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-15" value="Pembayaran Berhasil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="270" as="targetPoint" />
+            <mxPoint x="520" y="270" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="470" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-17" value="Konfirmasi Pencatatan" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="360" as="targetPoint" />
+            <mxPoint x="520" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="470" y="360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-18" value="Menampilkan Laporan Keuangan" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="440" as="targetPoint" />
+            <mxPoint x="520" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="470" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-19" value="Mencatat Penjualan" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="405" y="330" />
+            </Array>
+            <mxPoint x="525" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WwGZsH3jUNIRJm6gG6O-20" value="Menghasilkan Laporan" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="405" y="400" />
+            </Array>
+            <mxPoint x="525" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
